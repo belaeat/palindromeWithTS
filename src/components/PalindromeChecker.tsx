@@ -12,7 +12,7 @@ import { isPalindrome } from "../utils/palindrome"
 const PalindromeChecker = () => {
   const [text, setText] = useState("")
   const [result, setResult] = useState<boolean | null>(null)
-  const [examples, setExamples] = useState<string[]>([
+  const [examples, _setExamples] = useState<string[]>([
     "Madam, in Eden, I'm Adam",
     "A man, a plan, a canal, Panama",
     "No lemon, no melon",
